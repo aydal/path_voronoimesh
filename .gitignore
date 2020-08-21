@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+#get database
+!fetch.py
+
+#triangulation
+!get_triangles.py
+
+#graph calculation and path finding
+!post.py
+
+#dependencies
+!graph.py
+!shortest_path.py
+
+# etc...
