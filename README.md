@@ -1,8 +1,8 @@
 # path_voronoimesh
 Find shortest path in geodatabase converted to voronoi mesh. We use Python 3.6+
 
-Major dependency is shapely. We use `triangulate`,`voronoi_diagram` & `polygonise` in shapely.ops. At the time of push, you needed shapely 1.8.0 which is not the current stable pip version.
-To install 
+Major dependency is shapely. We use `triangulate`,`voronoi_diagram` & `polygonise` in shapely.ops. At the time of push, you needed shapely 1.8.0 which is not the current stable pip version. \
+To install\
 `pip3 install git+https://github.com/Toblerity/Shapely`
 
 Other dependencies - `geopandas` & `mapbox`(for getting database for geographical database)
